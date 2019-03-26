@@ -34,7 +34,7 @@ void printpixel(int x, int y){
 double cof[256];
 int grau;
 
-double derivative(double x){
+double derivative(double x){ // calcula derivada
     double sum = 0;
     for(int i = grau; i > 0; i--){
         sum += i*cof[i]*pow(x, i-1);
