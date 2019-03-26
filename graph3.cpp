@@ -70,7 +70,7 @@ int main(){
         if(grau > 1){
             wy = wy + err;
         }
-        if(py > -16 && wy < 16){
+        if(wy > -16 && wy < 16){
             printpixel((px+16)*128, (wy+16)*128);
         }
     }
